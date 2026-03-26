@@ -6,16 +6,16 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  background-color: #f4f7fb;
-  color: #1f2937;
+  background-color: #f3e8dc;
+  color: #4b3428;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background-color: #1d4ed8;
-  color: white;
+  background-color: #9b6b43;
+  color: #fff8ef;
   padding: 10px 20px;
 }
 
@@ -52,7 +52,7 @@ header nav {
 }
 
 .nav-list a {
-  color: white;
+  color: #fff8ef;
   text-decoration: none;
   font-weight: bold;
   padding: 6px 10px;
@@ -63,14 +63,15 @@ header nav {
 
 .nav-list a:hover,
 .nav-list a:focus {
-  background-color: #2563eb;
-  outline: 2px solid white;
+  background-color: #b7835a;
+  outline: 2px solid #fff8ef;
   outline-offset: 2px;
   opacity: 1;
 }
 
 .nav-list a.active {
   opacity: 1;
+  background-color: rgba(255, 248, 239, 0.15);
 }
 
 main {
@@ -82,15 +83,15 @@ main {
 }
 
 .card {
-  background-color: white;
+  background-color: #fff8ef;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(75, 52, 40, 0.12);
 }
 
 h2 {
-  color: #1d4ed8;
+  color: #8a5a3b;
   margin-top: 0;
 }
 
@@ -122,16 +123,19 @@ input,
 textarea,
 select {
   padding: 10px;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #d7bfa9;
   border-radius: 6px;
   margin-bottom: 10px;
+  background-color: #fffdf9;
+  color: #4b3428;
 }
 
 fieldset {
-  border: 1px solid #cbd5e1;
+  border: 1px solid #d7bfa9;
   border-radius: 8px;
   padding: 12px;
   margin: 12px 0;
+  background-color: #fdf5ec;
 }
 
 fieldset label {
@@ -141,8 +145,8 @@ fieldset label {
 }
 
 button {
-  background-color: #1d4ed8;
-  color: white;
+  background-color: #a86f46;
+  color: #fff8ef;
   border: none;
   padding: 12px;
   border-radius: 6px;
@@ -152,8 +156,8 @@ button {
 
 button:hover,
 button:focus {
-  background-color: #2563eb;
-  outline: 2px solid #0f172a;
+  background-color: #8a5a3b;
+  outline: 2px solid #4b3428;
   outline-offset: 2px;
 }
 
@@ -191,7 +195,7 @@ button:focus {
 }
 
 footer {
-  background-color: #e5e7eb;
+  background-color: #dcc6b0;
   padding: 10px 20px;
   margin-top: 0;
 }
@@ -214,7 +218,12 @@ footer {
 .footer-icons a {
   margin-left: 12px;
   text-decoration: none;
-  color: #1f2937;
+  color: #5a3d2b;
+}
+
+.footer-icons a:hover,
+.footer-icons a:focus {
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
