@@ -196,6 +196,10 @@ footer {
   gap: 16px;
 }
 
+.footer-inner p {
+  margin: 0;
+}
+
 .footer-icons a {
   margin-left: 12px;
   text-decoration: none;
